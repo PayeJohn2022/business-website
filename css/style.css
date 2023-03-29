@@ -84,10 +84,18 @@ section {
   align-items: center;
 }
 
-/* .home-img {
+.home-img {
   position: absolute;
   height: 100vh;
   justify-content: center;
+  width: 100vw;
+  height: 90vh;
+  object-fit: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 .home-img video {
@@ -97,10 +105,13 @@ section {
   height: 100%;
   object-fit: cover;
   z-index: -1;
-} */
+} 
+
 
 .home-text h1 {
   position: relative;
+  align-items: center;
+  justify-content: center;
   z-index: 1;
   font-size: var(--big-font);
   color: var(--main-color);
